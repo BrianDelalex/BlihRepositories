@@ -1,0 +1,15 @@
+#!/bin/sh
+
+source ./parse_input.sh
+source ./utils.sh
+source ./create_database.sh
+source ./call_queries.sh
+source ./read_database.sh
+source ./create_table.sh
+source ./insert.sh
+source ./describe.sh
+source ./select.sh
+args=("$@")
+parse_input args
+read_database
+call_queries

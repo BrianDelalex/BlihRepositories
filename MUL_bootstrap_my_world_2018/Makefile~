@@ -1,0 +1,33 @@
+NAME	=	mysh
+
+CC	=	gcc -g3 $(CFLAGS)
+
+RM	=	rm -f
+
+SRC	=	main.c	\
+		render_window.c	\
+		create_render.c	\
+
+SRCS	=	$(addprefix ./src/, $(SRC))
+
+OBJS	=	$(SRCS:.c=.o)
+
+LIB	=	-L./lib -lmy -lcsfml-graphics -lcsfml-window -lcsfml-system
+
+CFLAGS = -I./include
+CFLAGS += -Wall -Wextra
+
+all: $(NAME)
+
+$(NAME): $(OBJS)
+	make -C lib/
+	$(CC) $(OBJS) -o $(NAME) $(LIB)
+
+clean:
+	$(RM) $(OBJS)
+
+fclean: clean
+	make -C lib/ fclean
+	$(RM) $(NAME)
+
+re: fclean all

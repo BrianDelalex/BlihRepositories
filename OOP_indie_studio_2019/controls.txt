@@ -1,0 +1,23 @@
+		*-~-* INDIE_STUDIO CONTROLS *-~-*
+
+Player 1:
+		Z: UP
+		S: DOWN
+		Q: LEFT
+		D: RIGHT
+		E: BOMB
+Player 2:
+		ARROW KEYS
+		M: BOMB
+Player 3:
+		F: UP
+		V: DOWN
+		C: LEFT
+		B: RIGHT
+		G: BOMB
+Player 4:
+		I: UP
+		K: DOWN
+		J: LEFT
+		L: RIGHT
+		O: BOMB

@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+08ab22f87af3a92cb9126032a42ebbcc32557781 refs/remotes/origin/brian
+9d67a822b8700c04ddc4ca35a5dd34fae35e1f6d refs/remotes/origin/dev-nathan
+7444e54078ab47f67f53abc78ef46791adfd29e0 refs/remotes/origin/leo
+c563bf34cb3864359b7d4abaacc76f0bfdf8ae9c refs/remotes/origin/leobis
+fb5194095d424f7d02dfe6fb9054051ac99358c2 refs/remotes/origin/leok
+e4d36ca410e2426801e41d94d4f198009d2fe855 refs/remotes/origin/master
+501514963c097e303771e0cf2c7a12e659a181f3 refs/remotes/origin/newnathan

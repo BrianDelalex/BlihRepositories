@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo -e "/*
+** EPITECH PROJECT, 2019
+** $1
+** File description:
+** $2
+*/\n
+#include \"../include/my.h\"
+" > src/$1
